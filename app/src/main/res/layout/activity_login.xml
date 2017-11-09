@@ -9,14 +9,7 @@
     android:weightSum="1">
 
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_gravity="right|center_vertical"
-        android:layout_marginRight="10dp"
-        android:layout_weight="0.10"
-        android:text="Button" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,14 +17,20 @@
         android:layout_weight="0.10"
         android:orientation="vertical"
         android:weightSum="1">
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/login" />
 
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:inputType="textPersonName"
             android:maxLength="20"
-            android:paddingLeft="55dp"
+            android:paddingLeft="40dp"
             android:paddingRight="60dp"
             android:text="用户名"
             tools:layout_editor_absoluteX="0dp"
@@ -40,14 +39,25 @@
         <EditText
             android:id="@+id/password"
             android:layout_width="395dp"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:inputType="textPersonName"
             android:maxLength="20"
-            android:paddingLeft="55dp"
+            android:paddingLeft="40dp"
             android:paddingRight="60dp"
             android:text="密码"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="111dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.10"
+            android:background="#62b900"
+            android:radius="500dip"
+            android:textColor="#ffffff"
+            android:text="登录" />
 
     </LinearLayout>
 
