@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@null"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.10"
+        android:text="Button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.10"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:maxLength="20"
+            android:paddingLeft="55dp"
+            android:paddingRight="60dp"
+            android:text="用户名"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="395dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:maxLength="20"
+            android:paddingLeft="55dp"
+            android:paddingRight="60dp"
+            android:text="密码"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
