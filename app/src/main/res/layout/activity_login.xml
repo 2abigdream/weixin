@@ -54,10 +54,10 @@
             android:layout_height="20dp"
             android:layout_gravity="center"
             android:layout_weight="0.10"
-            android:background="#62b900"
-            android:radius="500dip"
-            android:textColor="#ffffff"
-            android:text="登录" />
+            android:background="@drawable/shape"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="登录"
+            android:textColor="#ff0000" />
 
     </LinearLayout>
 
