@@ -2,15 +2,15 @@ package com.example.administrator.weixin;
 
 import android.content.Intent;
 import android.os.Handler;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    private ImageView imageView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(@Nullable Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         new Handler().postDelayed(new Runnable() {
@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         },2000);
-    }
-    private void startActivities(Intent intent) {
     }
 }
 
