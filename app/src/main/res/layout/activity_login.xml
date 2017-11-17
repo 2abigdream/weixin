@@ -38,7 +38,7 @@
 
         <EditText
             android:id="@+id/password"
-            android:layout_width="395dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:inputType="textPersonName"
             android:maxLength="20"

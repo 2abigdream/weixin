@@ -17,7 +17,7 @@ public class Main1Activity extends AppCompatActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main1);
-        Button button=(Button) findViewById(R.id.buttton);
+        Button button=(Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View V){
@@ -25,5 +25,13 @@ public class Main1Activity extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+         Button button2=(Button) findViewById(R.id.button2);
+         button.setOnClickListener(new View.OnClickListener(){
+             @Override
+             public void onClick(View V){
+                 Intent intent=new Intent(Main1Activity.this,LoginActivity.class);
+                 startActivity(intent);
+             }
+         });
     }
 }
