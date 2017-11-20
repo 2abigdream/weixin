@@ -5,4 +5,5 @@ package com.example.administrator.weixin;
  */
 
 public class Page1Activity {
+
 }

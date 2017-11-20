@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:paddingLeft="40dp"
+        android:paddingRight="60dp"
+        android:text="昵称" />
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:paddingLeft="40dp"
+        android:paddingRight="60dp"
+        android:text="国家/地区" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:paddingLeft="40dp"
+        android:paddingRight="60dp"
+        android:text="手机号" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:paddingLeft="40dp"
+        android:paddingRight="60dp"
+        android:text="密码" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:background="@drawable/shape"
+        android:text="注册" />
+
+    <EditText
+        android:id="@+id/Test"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="点击上面的“注册”按钮，即表示你同意《腾讯微信软件许可及服务协议》和《微信隐私保护指引》"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:text="点击上面的“注册”按钮，即表示你同意《腾讯微信软件许可及服务协议》和《微信隐私保护指引》" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="服务协议》和《微信隐私保护指引》"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+</LinearLayout>
